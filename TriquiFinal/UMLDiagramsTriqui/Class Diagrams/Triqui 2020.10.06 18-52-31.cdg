@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Triqui">
+  <ClassDiagramComponents>
+    <Class name="ventanaEmpate" package="ventanas" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="java.awt.Frame" name="parent"/>
+          <Argument type="boolean" name="modal"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ventanaEscogerTurno" package="ventanas" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="usuario1" type="String" visibility="private"/>
+        <Field name="turno" type="String" visibility="private"/>
+        <Field name="botonUsuario1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="botonUsuario2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="java.awt.Frame" name="parent"/>
+          <Argument type="boolean" name="modal"/>
+          <Argument type="String" name="usuario1"/>
+          <Argument type="String" name="usuario2"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getTurno" returnType="String" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="botonUsuario1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="botonUsuario2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ventanaGanador" package="ventanas" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="usuario" type="String" visibility="private"/>
+        <Field name="etiquetaNombre" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="java.awt.Frame" name="parent"/>
+          <Argument type="boolean" name="modal"/>
+          <Argument type="String" name="usuario"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ventanaInicial" package="ventanas" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="usuario1" type="String" visibility="private"/>
+        <Field name="usuario2" type="String" visibility="private"/>
+        <Field name="botonComenzarJuego" type="javax.swing.JButton" visibility="private"/>
+        <Field name="botonGuardar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="cajaNombre1" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="cajaNombre2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="etiquetaMuestra1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="etiquetaMuestra2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="etiquetaNombre1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="etiquetaNombre2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="panel" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="botonGuardarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="botonComenzarJuegoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="cajaNombre1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ventanaMostrarResultados" package="ventanas" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields>
+        <Field name="modeloTabla" type="DefaultTableModel" visibility="private"/>
+        <Field name="usuario1" type="String" visibility="private"/>
+        <Field name="vecesGano1" type="int" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jTable1" type="javax.swing.JTable" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="java.awt.Frame" name="parent"/>
+          <Argument type="boolean" name="modal"/>
+          <Argument type="String" name="usuario1"/>
+          <Argument type="String" name="usuario2"/>
+          <Argument type="int" name="vecesGano1"/>
+          <Argument type="int" name="vecesGano2"/>
+          <Argument type="int" name="vecesEmpate"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="cargarDatosTabla" returnType="void" visibility="private"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ventanaPrincipal" package="ventanas" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields>
+        <Field name="casilla" type="boolean" visibility="private"/>
+        <Field name="turno" type="String" visibility="private"/>
+        <Field name="matriz" type="int" visibility="private"/>
+        <Field name="usuario1" type="String" visibility="private"/>
+        <Field name="vecesGano1" type="int" visibility="private"/>
+        <Field name="BotonAbajo" type="javax.swing.JButton" visibility="private"/>
+        <Field name="BotonAbajoDerecha" type="javax.swing.JButton" visibility="private"/>
+        <Field name="MenuAyuda" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="MenuJuego" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="barraMenu" type="javax.swing.JMenuBar" visibility="private"/>
+        <Field name="botonAbajoIzquierda" type="javax.swing.JButton" visibility="private"/>
+        <Field name="botonArriba" type="javax.swing.JButton" visibility="private"/>
+        <Field name="botonArribaDerecha" type="javax.swing.JButton" visibility="private"/>
+        <Field name="botonArribaIzquierda" type="javax.swing.JButton" visibility="private"/>
+        <Field name="botonCentro" type="javax.swing.JButton" visibility="private"/>
+        <Field name="botonDerecha" type="javax.swing.JButton" visibility="private"/>
+        <Field name="botonIzquierda" type="javax.swing.JButton" visibility="private"/>
+        <Field name="comenzarDeNuevo" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jSeparator1" type="javax.swing.JPopupMenu.Separator" visibility="private"/>
+        <Field name="mostrarResultados" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="panel" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="salir" type="javax.swing.JMenuItem" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="usuario1"/>
+          <Argument type="String" name="usuario2"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="llenarCasillas" returnType="void" visibility="private"/>
+        <Method name="llenarMatriz" returnType="void" visibility="private"/>
+        <Method name="dibujarX" returnType="void" visibility="private">
+          <Argument type="JButton" name="boton"/>
+        </Method>
+        <Method name="dibujarO" returnType="void" visibility="private">
+          <Argument type="JButton" name="boton"/>
+        </Method>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="salirActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="botonArribaIzquierdaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="botonArribaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="botonArribaDerechaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="botonIzquierdaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="botonCentroActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="botonDerechaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="botonAbajoIzquierdaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="BotonAbajoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="BotonAbajoDerechaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="mostrarResultadosActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="comenzarDeNuevoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="MenuAyudaMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="comprobarGanador" returnType="void" visibility="private"/>
+        <Method name="comprobar" returnType="boolean" visibility="private">
+          <Argument type="int" name="num"/>
+        </Method>
+        <Method name="reiniciarJuego" returnType="void" visibility="private"/>
+        <Method name="quienJuegaPrimero" returnType="void" visibility="private"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
